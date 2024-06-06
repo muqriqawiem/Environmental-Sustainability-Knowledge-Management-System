@@ -1,5 +1,6 @@
 import streamlit as st
 import time
+import streamlit_shadcn_ui as ui
 
 def main():
     st.set_page_config(page_title="Organizational Sustainability Recommender System", layout="wide")
