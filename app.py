@@ -1,6 +1,15 @@
 import streamlit as st
 import time
 
+# Define your custom theme
+custom_theme = """
+    [theme]
+    primaryColor="#be2623"
+    backgroundColor="#f4f2ec"
+    secondaryBackgroundColor="#eae8dc"
+    textColor="#000000"
+"""
+
 def main():
     st.set_page_config(page_title="Organizational Sustainability Recommender System", layout="wide")
     
