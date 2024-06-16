@@ -46,11 +46,11 @@ The ontology of the Environmental Sustainability Knowledge Management System out
 ![Ontology Diagram](https://i.imgur.com/3JAWhGc.png)
 
 - **Primary Classes**: Represented by yellow-colored circles.
-  - **User**: Represents individuals interacting with the system, e.g., 'Mike'.
-    - **SustainabilityGoals**: Specifies goals such as reducing carbon footprint or achieving zero waste.
-  - **SustainablePractice**: Recommendations made by the **Advisor** class.
-  - **Advisor**: Provides recommendations to users; can be entities like 'Jane' or systems like 'Environmental Sustainability Recommender System'.
-  - **EnvironmentalProfile**: Contains information about environmental aspects related to users or organizations, facilitating personalized recommendations.
+- **User**: Represents individuals interacting with the system, e.g., 'Mike'.
+- **SustainabilityGoals**: Specifies goals such as reducing carbon footprint or achieving zero waste.
+- **SustainablePractice**: Recommendations made by the **Advisor** class.
+- **Advisor**: Provides recommendations to users; can be entities like 'Jane' or systems like 'Environmental Sustainability Recommender System'.
+- **EnvironmentalProfile**: Contains information about environmental aspects related to users or organizations, facilitating personalized recommendations.
 
 Each primary class may have individual instances represented by purple-colored diamonds, highlighting specific entities or systems within the ontology. For instance, users like 'Mike' may have associated sustainability goals, while practices such as water conservation and renewable energy are recommended based on these goals.
 
