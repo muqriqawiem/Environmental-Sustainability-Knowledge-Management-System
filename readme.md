@@ -1,4 +1,4 @@
-# Environmental Sustainability Knowledge Management System
+# Environmental Sustainability Recommender System
 
 ## System Background
 
