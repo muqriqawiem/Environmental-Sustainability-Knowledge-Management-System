@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://neo4j.com/vocabulary/environmental-sustainability#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://neo4j.com/vocabulary/environmental-sustainability#">
+    <Prefix name="" IRI="http://neo4j.com/vocabulary/environmental-sustainability#"/>
+    <Prefix name="g" IRI="http://www.semanticweb.org/muqriqawiem/ontologies/2024/4/environmental-sustainability.com/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Ontology for environmental sustainability KMS.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="Advisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="EnironmentalProfile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SustainabilityGoal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SustainablePractice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="User"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="advises"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasEnvironmentalProfile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasSustainabilityGoal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="recommends"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasCost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasExperience"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasImpactScore"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasImplementationTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasPhoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasQualification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hasTargetDate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="AchieveZeroWaste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ConserveWater"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="EnergyEfficiency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Environmental_Sustainability_Recommender_System"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="HighImpact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Jane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="LowImpact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Mike"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ModerateImpact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ReduceCarbonFootprint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="RenewableEnergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WasteReduction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WaterConservation"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="SustainabilityGoal"/>
+        <NamedIndividual IRI="AchieveZeroWaste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SustainabilityGoal"/>
+        <NamedIndividual IRI="ConserveWater"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SustainablePractice"/>
+        <NamedIndividual IRI="EnergyEfficiency"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Advisor"/>
+        <NamedIndividual IRI="Environmental_Sustainability_Recommender_System"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="EnironmentalProfile"/>
+        <NamedIndividual IRI="HighImpact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Advisor"/>
+        <NamedIndividual IRI="Jane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="EnironmentalProfile"/>
+        <NamedIndividual IRI="LowImpact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="User"/>
+        <NamedIndividual IRI="Mike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="EnironmentalProfile"/>
+        <NamedIndividual IRI="ModerateImpact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SustainabilityGoal"/>
+        <NamedIndividual IRI="ReduceCarbonFootprint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SustainablePractice"/>
+        <NamedIndividual IRI="RenewableEnergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SustainablePractice"/>
+        <NamedIndividual IRI="WasteReduction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="SustainablePractice"/>
+        <NamedIndividual IRI="WaterConservation"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="recommends"/>
+        <NamedIndividual IRI="AchieveZeroWaste"/>
+        <NamedIndividual IRI="WasteReduction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="recommends"/>
+        <NamedIndividual IRI="ConserveWater"/>
+        <NamedIndividual IRI="WaterConservation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="advises"/>
+        <NamedIndividual IRI="Environmental_Sustainability_Recommender_System"/>
+        <NamedIndividual IRI="Mike"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="recommends"/>
+        <NamedIndividual IRI="HighImpact"/>
+        <NamedIndividual IRI="WasteReduction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="advises"/>
+        <NamedIndividual IRI="Jane"/>
+        <NamedIndividual IRI="Mike"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="recommends"/>
+        <NamedIndividual IRI="LowImpact"/>
+        <NamedIndividual IRI="RenewableEnergy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="recommends"/>
+        <NamedIndividual IRI="ModerateImpact"/>
+        <NamedIndividual IRI="EnergyEfficiency"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="recommends"/>
+        <NamedIndividual IRI="ReduceCarbonFootprint"/>
+        <NamedIndividual IRI="EnergyEfficiency"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasDescription"/>
+        <NamedIndividual IRI="AchieveZeroWaste"/>
+        <Literal>Aim to achieve zero waste by the end of 2025.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasDescription"/>
+        <NamedIndividual IRI="ConserveWater"/>
+        <Literal>Aim to conserve water by 50% by the end of 2025.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasCost"/>
+        <NamedIndividual IRI="EnergyEfficiency"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasDescription"/>
+        <NamedIndividual IRI="EnergyEfficiency"/>
+        <Literal>Implement energy-efficient lighting and appliances.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasImplementationTime"/>
+        <NamedIndividual IRI="EnergyEfficiency"/>
+        <Literal>6 months</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasName"/>
+        <NamedIndividual IRI="Environmental_Sustainability_Recommender_System"/>
+        <Literal>Environmental Sustainability Recommender System</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasImpactScore"/>
+        <NamedIndividual IRI="HighImpact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasEmail"/>
+        <NamedIndividual IRI="Jane"/>
+        <Literal>jane.smith@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasExperience"/>
+        <NamedIndividual IRI="Jane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasName"/>
+        <NamedIndividual IRI="Jane"/>
+        <Literal>Jane Smith</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasPhoneNumber"/>
+        <NamedIndividual IRI="Jane"/>
+        <Literal>098-765-4321</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasQualification"/>
+        <NamedIndividual IRI="Jane"/>
+        <Literal>Certified Environmental Consultant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasImpactScore"/>
+        <NamedIndividual IRI="LowImpact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasAddress"/>
+        <NamedIndividual IRI="Mike"/>
+        <Literal>123 Green Street, Eco City</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasAge"/>
+        <NamedIndividual IRI="Mike"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasEmail"/>
+        <NamedIndividual IRI="Mike"/>
+        <Literal>mike@gmail.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasName"/>
+        <NamedIndividual IRI="Mike"/>
+        <Literal>Mkie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasPhoneNumber"/>
+        <NamedIndividual IRI="Mike"/>
+        <Literal>123-456-7890</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasImpactScore"/>
+        <NamedIndividual IRI="ModerateImpact"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasDescription"/>
+        <NamedIndividual IRI="ReduceCarbonFootprint"/>
+        <Literal>Aim to reduce carbon footprint by 50% by the end of 2025.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasCost"/>
+        <NamedIndividual IRI="RenewableEnergy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasDescription"/>
+        <NamedIndividual IRI="RenewableEnergy"/>
+        <Literal>Install solar panels and wind turbines to generate renewable energy.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasImplementationTime"/>
+        <NamedIndividual IRI="RenewableEnergy"/>
+        <Literal>12 months</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasCost"/>
+        <NamedIndividual IRI="WasteReduction"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasDescription"/>
+        <NamedIndividual IRI="WasteReduction"/>
+        <Literal>Implement a comprehensive recycling program and reduce single-use plastics.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasImplementationTime"/>
+        <NamedIndividual IRI="WasteReduction"/>
+        <Literal>3 months</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasCost"/>
+        <NamedIndividual IRI="WaterConservation"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasDescription"/>
+        <NamedIndividual IRI="WaterConservation"/>
+        <Literal>Install low-flow fixtures and implement rainwater harvesting.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="hasImplementationTime"/>
+        <NamedIndividual IRI="WaterConservation"/>
+        <Literal>4 months</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="advises"/>
+        <Class IRI="Advisor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasEnvironmentalProfile"/>
+        <Class IRI="User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasSustainabilityGoal"/>
+        <Class IRI="User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="recommends"/>
+        <Class IRI="EnironmentalProfile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="recommends"/>
+        <Class IRI="SustainabilityGoal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="advises"/>
+        <Class IRI="User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasEnvironmentalProfile"/>
+        <Class IRI="EnironmentalProfile"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasSustainabilityGoal"/>
+        <Class IRI="SustainabilityGoal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="recommends"/>
+        <Class IRI="SustainablePractice"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasAddress"/>
+        <Class IRI="User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasAge"/>
+        <Class IRI="User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasCost"/>
+        <Class IRI="SustainablePractice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasDescription"/>
+        <Class IRI="SustainabilityGoal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasDescription"/>
+        <Class IRI="SustainablePractice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasEmail"/>
+        <Class IRI="Advisor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasEmail"/>
+        <Class IRI="User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasExperience"/>
+        <Class IRI="Advisor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasImpactScore"/>
+        <Class IRI="EnironmentalProfile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasImplementationTime"/>
+        <Class IRI="SustainablePractice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasName"/>
+        <Class IRI="Advisor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasName"/>
+        <Class IRI="User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasPhoneNumber"/>
+        <Class IRI="Advisor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasPhoneNumber"/>
+        <Class IRI="User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasQualification"/>
+        <Class IRI="Advisor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hasTargetDate"/>
+        <Class IRI="SustainabilityGoal"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="hasAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasCost"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasExperience"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasImpactScore"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasImplementationTime"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasPhoneNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasQualification"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hasTargetDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
